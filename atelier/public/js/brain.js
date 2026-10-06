@@ -80,3 +80,15 @@ export function compterMots(message) {
   }
   return texte.split(/\s+/).length;
 }
+
+// Dit si un message est écrit en majuscules : deux lettres au moins, et aucune minuscule.
+export function estEnMajuscules(message) {
+  if (typeof message !== 'string') {
+    return false;
+  }
+  const lettres = message.match(/\p{L}/gu) ?? [];
+  if (lettres.length < 2) {
+    return false;
+  }
+  return message === message.toUpperCase();
+}
