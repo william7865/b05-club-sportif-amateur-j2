@@ -8,12 +8,12 @@ Pour chaque notion, chacun écrit « à l'aise » ou « à renforcer ». Ce n'es
 
 | Notion | Membre 1 : William | Membre 2 : Nicolas |
 |---|---|---|
-| Structure HTML | | |
-| CSS et responsive | | |
-| JavaScript | | |
-| DOM et événements | | |
-| Git | | |
-| Tests | | |
+| Structure HTML | à l'aise | à l'aise |
+| CSS et responsive | à l'aise | à l'aise |
+| JavaScript | à l'aise | à l'aise |
+| DOM et événements | à l'aise | à l'aise |
+| Git | à l'aise | à l'aise |
+| Tests | à l'aise | à l'aise |
 
 Chacun, en une phrase, son objectif personnel pour J2 et J3.
 
@@ -57,7 +57,7 @@ Pour aller plus loin, avec l'agent, les demandes du formateur :
 
 | À remplir | Votre réponse |
 |---|---|
-| Fonction tirée | À confirmer selon le tirage du formateur. Les trois fonctions de la fiche sont faites ; la première traitée est F1, `synonyme(message)`. |
+| Fonction tirée | Tirage non connu de notre binôme : nous avons pris F1, `synonyme(message)`, puis fait F2 et F3 en plus. |
 | Le rouge vu (message exact) | `SyntaxError: The requested module '../public/js/brain.js' does not provide an export named 'synonyme'` |
 | Identifiant du commit `test:` | `e3ef060` (test: synonyme, critères C1 à C5) |
 | Identifiant du commit `feat:` | `631975f` (feat: synonyme) |
@@ -76,6 +76,8 @@ F1, `synonyme(message)`, donne le mot de référence. C1 : `'coucou'`, `'hello'`
 | 1 | | | |
 | 2 | | | |
 | 3 | | | |
+
+Round 4 non fait à ce stade : le fichier `cap-web-j2-abordage.zip` (les trois patchs) n'était pas encore reçu.
 
 Pour aller plus loin : le patch que vous avez corrigé, et ce que vous avez changé.
 
