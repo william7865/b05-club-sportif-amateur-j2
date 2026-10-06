@@ -48,3 +48,23 @@ export function replyTo(message) {
   // Message inconnu : un repli à part, qui renvoie vers « aide ».
   return REPONSES.repli;
 }
+
+const SYNONYMES = {
+  coucou: 'salut',
+  hello: 'salut',
+  bonsoir: 'salut',
+  help: 'aide',
+  sos: 'aide'
+};
+
+// Donne le mot de référence d'un message : « hello » devient « salut ».
+export function synonyme(message) {
+  if (typeof message !== 'string') {
+    return '';
+  }
+  const texte = message.trim().toLowerCase();
+  if (Object.hasOwn(SYNONYMES, texte)) {
+    return SYNONYMES[texte];
+  }
+  return texte;
+}
